@@ -4,7 +4,7 @@ import './Welcome.scss';
 
 const Welcome = () => {
   return (
-    <section>
+    <section className='welcome-container'>
       <div>
         <h2>Welcome</h2>
         <p>Select your community and log-in</p>
