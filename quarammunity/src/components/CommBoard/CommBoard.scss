@@ -4,6 +4,16 @@ section {
   align-items: center;
   background-color: #253C78;
   display: flex;
+  flex-direction: column;
   height: 81vh;
   justify-content: center;
+  padding: 10px 0px;
+  width: 100vw;
+  
+  .comm-container {
+    background-color: #253C78;
+    height: 70vh;
+    overflow-y: scroll;
+    // width: 650vw;
+  }
 }
