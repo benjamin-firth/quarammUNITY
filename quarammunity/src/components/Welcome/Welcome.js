@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './Welcome.scss';
 
 const Welcome = () => {
@@ -7,11 +8,13 @@ const Welcome = () => {
       <div>
         <h2>Welcome</h2>
         <p>Select your community and log-in</p>
-        <form>
-          <input placeholder='Community' />
-          <input placeholder='Name' />
-          <button type='button'>SUBMIT</button>
-        </form>
+          <form>
+            <input placeholder='Community' />
+            <input placeholder='Name' />
+            <Link to='/communityboard'>
+              <button type='button'>SUBMIT</button>
+            </Link>
+          </form>
       </div>
     </section>
   );
