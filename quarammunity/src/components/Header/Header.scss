@@ -1,8 +1,10 @@
 @import './src/variables.scss';
 
-header {
+.loggedout-header {
   background-color: #D36582;
   color: #00072D;
+  display: flex;
+  flex-direction: column;
   padding: 20px;
   text-align: center;
 
