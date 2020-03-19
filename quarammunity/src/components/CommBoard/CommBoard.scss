@@ -1,1 +1,9 @@
 @import './src/variables.scss';
+
+section {
+  align-items: center;
+  background-color: #253C78;
+  display: flex;
+  height: 81vh;
+  justify-content: center;
+}
