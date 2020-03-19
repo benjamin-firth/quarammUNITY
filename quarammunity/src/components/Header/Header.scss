@@ -1,1 +1,13 @@
 @import './src/variables.scss';
+
+header {
+  background-color: #D36582;
+  color: #00072D;
+  padding: 20px;
+  text-align: center;
+
+  h1 {
+    font-size: 45px;
+    margin: 0px;
+  }
+}

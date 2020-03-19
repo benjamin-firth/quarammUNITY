@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.scss';
+import Header from '../Header/Header';
+import Welcome from '../Welcome/Welcome';
 
-// Initial commit
-
-function App() {
+const App = () => {
   return (
-    <h1>quarammUNITY</h1>
+    <main>
+      <Header />
+      <Welcome />
+    </main>
   );
-}
+};
 
 export default App;
