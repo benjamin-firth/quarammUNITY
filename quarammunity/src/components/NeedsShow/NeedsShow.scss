@@ -1,1 +1,23 @@
 @import './src/variables.scss';
+
+.needs-show-container {
+  align-items: center;
+  background-color: #253C78;
+  color: #FFEECF;
+  display: flex;
+  flex-direction: row;
+  height: 81vh;
+  justify-content: space-around;
+  padding: 10px 0px;
+  width: 100vw;
+  
+  div {
+    align-items: center;
+    background-color: #253C78;
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    padding-left: 40px;
+    width: 50vw;
+  }
+}
