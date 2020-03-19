@@ -1,5 +1,25 @@
 @import './src/variables.scss';
 
+main {
+  height: 100vh;
+}
+
+button {
+  background-color: #D36582;
+  border-radius: 5px;
+  color: #00072D;
+  cursor: pointer;
+  font-size: 18px;
+  height: 32px;
+  margin: 10px 5px 5px 5px;
+  padding: 2px 10px;
+}
+
+button:hover {
+  background-color: #00072D;
+  color: #D36582;
+}
+
 #blockColorblindContent {
   display: none;
 };
