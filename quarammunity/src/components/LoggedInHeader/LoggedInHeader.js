@@ -12,8 +12,9 @@ const LoggedInHeader = () => {
       <div className='header-nav-container'>
         <Link to='/communityboard'>
           <h2>Home</h2>
+        </Link><Link to='/addneed'>
+          <h2>Add Need Request</h2>
         </Link>
-        <h2>Add Need Request</h2>
         <Link exact="true" to='/'>
           <h2>Logout</h2>
         </Link>
