@@ -1,1 +1,22 @@
-import React from 'react'
+.enter-need-box {
+  background-color: #A6E1FA;
+  border-radius: 5px;
+  padding: 20px;
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input,
+  textarea {
+    border-radius: 5px;
+    font-size: 18px;
+    height: 30px;
+    margin: 10px 5px 10px 5px;
+  }
+
+  textarea {
+    height: 120px;
+  }
+}
