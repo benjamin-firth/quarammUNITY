@@ -6,6 +6,7 @@ import LoggedInHeader from '../LoggedInHeader/LoggedInHeader';
 import Welcome from '../Welcome/Welcome';
 import CommBoard from '../CommBoard/CommBoard';
 import NeedsShow from '../NeedsShow/NeedsShow';
+import AddNeed from '../AddNeed/AddNeed';
 
 const App = () => {
   return (
@@ -21,6 +22,10 @@ const App = () => {
       <Route path='/needsshow'>
         <LoggedInHeader />
         <NeedsShow />
+      </Route>
+      <Route path='/addneed'>
+        <LoggedInHeader />
+        <AddNeed />
       </Route>
     </main>
   );
