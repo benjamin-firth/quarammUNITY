@@ -9,6 +9,8 @@ const AddNeed = () => {
         <form>
           <label>Need:</label>
           <input placeholder='Enter Need Here' />
+          <label>Address:</label>
+          <input placeholder='Enter Address Here' />
           <label>Further Information:</label>
           <textarea placeholder='Enter Any Further Information Here' />
           <button>SUBMIT NEED REQUEST</button>
