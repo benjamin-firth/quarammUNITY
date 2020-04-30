@@ -10,7 +10,6 @@ const LoggedInHeader = () => {
   const currentUser = useSelector(state => state.currentUser);
   
   const logout = () => {
-    console.log('firing');
     dispatch(logoutCurrentUser())
   };
 
