@@ -1,9 +1,21 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { Link, Redirect } from 'react-router-dom';
+import { useSelector, useDispatch } from 'react-redux';
+import { logoutCurrentUser } from '../../actions';
 import './LoggedInHeader.scss';
 
+
 const LoggedInHeader = () => {
+  const dispatch = useDispatch();
+  const currentUser = useSelector(state => state.currentUser);
+  
+  const logout = () => {
+    console.log('firing');
+    dispatch(logoutCurrentUser())
+  };
+
   return (
+    !currentUser.name ? <Redirect exact to='/' /> :
     <header>
       <div>
         <h1>quarammUNITY</h1>
@@ -15,9 +27,9 @@ const LoggedInHeader = () => {
         </Link><Link to='/addneed'>
           <h2>Add Need Request</h2>
         </Link>
-        <Link exact="true" to='/'>
-          <h2>Logout</h2>
-        </Link>
+        <button 
+          type='button'
+          onClick={logout}>Logout</button>
       </div>
     </header>
   );
