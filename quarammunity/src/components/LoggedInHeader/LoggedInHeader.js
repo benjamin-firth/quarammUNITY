@@ -27,9 +27,9 @@ const LoggedInHeader = () => {
         </Link><Link to='/addneed'>
           <h2>Add Need Request</h2>
         </Link>
-        <button 
+        <h2><a 
           type='button'
-          onClick={logout}>Logout</button>
+          onClick={logout}>Logout</a></h2>
       </div>
     </header>
   );
