@@ -7,6 +7,7 @@ export const logoutCurrentUser = () => ({
   type: 'LOG_OUT'
 });
 
-export const submitNeedRequest = () => ({
-  type: 'SUBMIT_NEED'
+export const submitNeedRequest = need => ({
+  type: 'SUBMIT_NEED',
+  need
 });
